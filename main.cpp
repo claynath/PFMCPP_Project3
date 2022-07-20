@@ -48,56 +48,7 @@ Several sub-objects are listed below that make up this car's interior.
 
     A few blanks are filled in for you already.
 
-Main Object: Car Interior
-Sub Object 1: Steering Wheel
-    Name 4 things you'll find on the:    Steering Wheel
-        1) paddle shifters
-        2) 'cruise control' controls
-        3) 
-        4) 
-    Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
-        
-Sub Object 2: Instrument Cluster
-    Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
-    Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
-    
-Sub Object 3: Environment Controls
-    Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
 
-Sub Object 4: Infotainment System
-    Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
-
-Sub Object 5: Seat 
-    Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
-    Name 2 things you can do with the:   Seat
-        1)
-        2)
 */
 
 /*
@@ -155,59 +106,59 @@ Part 1b Assignment: 1 Step
 */
 
 /*
-Thing 1)
+Thing 1) table
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of legs (int)
+    2) wood type (std::string)
+    3) height (double)
+    4) shape (std::string)
+    5) seating capacity (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) hold board game
+    2) have drink coasters
+    3) hold plates
  */
 
 /*
-Thing 2)
+Thing 2) cell phone
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) brand (std::string)
+    2) version (double)
+    3) color (std::string)
+    4) size (double)
+    5) brightness level (double)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) turn on
+    2) make a call
+    3) send a text
  */
 
 /*
-Thing 3)
+Thing 3) house
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) air conditioner type (std::string)
+    2) exterior material (std::string)
+    3) interior paint color (std::string)
+    4) flooring type (std::string)
+    5) number of bed rooms (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) run air conditioner
+    2) have lights on
+    3) have solar panels
  */
 
 /*
-Thing 4)
+Thing 4) boat
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) brand (std::string)
+    2) color (std::string)
+    3) size (double)
+    4) type (std::string)
+    5) passenger capacity (int)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) accelerate
+    2) float
+    3) sink
  */
 
  /*
@@ -279,19 +230,6 @@ Define an object that is made of 5 sub-objects.
     you'll define these 5 sub-objects in Part 1d.
 */
 
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 Part 1d - Lesson
@@ -384,75 +322,7 @@ each property for UDTs 5 - 9.
 Step 3 is written below UDTs 5 - 9
 */
 
-/*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 ===================
@@ -470,6 +340,138 @@ MOVE THEM BELOW this block comment and put them in numerical order
 
 After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
+
+Main Object: Car Interior
+Sub Object 1: Steering Wheel
+    Name 4 things you'll find on the:    Steering Wheel
+        1) paddle shifters
+        2) 'cruise control' controls
+        3) horn
+        4) radio control
+    Name 2 things you can do with the:   Steering Wheel
+        1) adjust cruise control settings.
+        2) honk the horn
+        
+Sub Object 2: Instrument Cluster
+    Name 4 things you'll find on the:   Instrument Cluster
+        1) Speedometer
+        2) Fuel Guage
+        3) RPM Guage
+        4) Battery Light
+    Name 3 things you can do with the:   Instrument Cluster
+        1) Check Speed
+        2) Check Fuel Level
+        3) Is Battery Light On
+    
+Sub Object 3: Environment Controls
+    Name 3 things you'll find on the:    Environment Controls
+        1) Temperature Dial
+        2) Fan Speed Dial
+        3) Rear Defrost Button
+    Name 3 things you can do with the:   Environment Controls
+        1) Change Temperature
+        2) Change Fan Speed
+        3) Engage Rear Defrost
+
+Sub Object 4: Infotainment System
+    Name 3 things you'll find on the:    Infotainment System
+        1) Preset Buttons
+        2) Volume Control Dial
+        3) Radio Tuner
+    Name 3 things you can do with the:   Infotainment System
+        1) Change Volume
+        2) Select Preset
+        3) Change Radio Station
+
+Sub Object 5: Seat 
+    Name 3 things you'll find on the:    Seat
+        1) Backrest
+        2) Recline adjuster
+        3) Position adjuster
+    Name 2 things you can do with the:   Seat
+        1) adjust position
+        2) recline
+
+Thing 5) monitor
+5 properties:
+    1) size (double)
+    2) color (std::string)
+    3) material (std::string)
+    4) brightness - percentage (int)
+    5) brand (std::string)
+3 things it can do:
+    1) turn on
+    2) increase brightness
+    3) change contrast
+ */
+
+/*
+Thing 6) keyboard
+5 properties:
+    1) size (float)
+    2) brand (std::string)
+    3) color (std::string)
+    4) layout version (std::string)
+    5) number pad (bool)
+3 things it can do:
+    1) unplug
+    2) delete
+    3) escape
+ */
+
+/*
+Thing 7) mouse
+5 properties:
+    1) brand (std::string)
+    2) color (std::string)
+    3) cordless (bool)
+    4) laser (bool)
+    5) scroller (bool)
+3 things it can do:
+    1) point
+    2) left click
+    3) right click
+ */
+
+/*
+Thing 8) processor
+5 properties:
+    1) speed (double)
+    2) number of cores (int)
+    3) brand (std::string)
+    4) version (std::string)
+    5) size (float)
+3 things it can do:
+    1) clear cache
+    2) clear RAM
+    3) allocate memory
+ */
+
+/*
+Thing 9) hard drive
+5 properties:
+    1) type (std::string)
+    2) storage capacity - GB (double)
+    3) speed - mbps (in)
+    4) external (bool)
+    5) connection (std::string)
+3 things it can do:
+    1) save file
+    2) retrieve file
+    3) install program
+
+Thing 10) computer
+5 properties:
+    1) monitor
+    2) keyboard
+    3) mouse
+    4) processor
+    5) hard drive
+3 things it can do:
+    1) turn on
+    2) shut down
+    3) run program
+ 
 */
 
 
