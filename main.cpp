@@ -48,6 +48,56 @@ Several sub-objects are listed below that make up this car's interior.
 
     A few blanks are filled in for you already.
 
+Main Object: Car Interior
+Sub Object 1: Steering Wheel
+    Name 4 things you'll find on the:    Steering Wheel
+        1) paddle shifters
+        2) 'cruise control' controls
+        3) horn
+        4) radio control
+    Name 2 things you can do with the:   Steering Wheel
+        1) adjust cruise control settings.
+        2) honk the horn
+        
+Sub Object 2: Instrument Cluster
+    Name 4 things you'll find on the:   Instrument Cluster
+        1) Speedometer
+        2) Fuel Guage
+        3) RPM Guage
+        4) Battery Light
+    Name 3 things you can do with the:   Instrument Cluster
+        1) Check Speed
+        2) Check Fuel Level
+        3) Is Battery Light On
+    
+Sub Object 3: Environment Controls
+    Name 3 things you'll find on the:    Environment Controls
+        1) Temperature Dial
+        2) Fan Speed Dial
+        3) Rear Defrost Button
+    Name 3 things you can do with the:   Environment Controls
+        1) Change Temperature
+        2) Change Fan Speed
+        3) Engage Rear Defrost
+
+Sub Object 4: Infotainment System
+    Name 3 things you'll find on the:    Infotainment System
+        1) Preset Buttons
+        2) Volume Control Dial
+        3) Radio Tuner
+    Name 3 things you can do with the:   Infotainment System
+        1) Change Volume
+        2) Select Preset
+        3) Change Radio Station
+
+Sub Object 5: Seat 
+    Name 3 things you'll find on the:    Seat
+        1) Backrest
+        2) Recline adjuster
+        3) Position adjuster
+    Name 2 things you can do with the:   Seat
+        1) adjust position
+        2) recline
 
 */
 
@@ -106,59 +156,7 @@ Part 1b Assignment: 1 Step
 */
 
 /*
-Thing 1) table
-5 properties:
-    1) number of legs (int)
-    2) wood type (std::string)
-    3) height (double)
-    4) shape (std::string)
-    5) seating capacity (int)
-3 things it can do:
-    1) hold board game
-    2) have drink coasters
-    3) hold plates
- */
 
-/*
-Thing 2) cell phone
-5 properties:
-    1) brand (std::string)
-    2) version (double)
-    3) color (std::string)
-    4) size (double)
-    5) brightness level (double)
-3 things it can do:
-    1) turn on
-    2) make a call
-    3) send a text
- */
-
-/*
-Thing 3) house
-5 properties:
-    1) air conditioner type (std::string)
-    2) exterior material (std::string)
-    3) interior paint color (std::string)
-    4) flooring type (std::string)
-    5) number of bed rooms (int)
-3 things it can do:
-    1) run air conditioner
-    2) have lights on
-    3) have solar panels
- */
-
-/*
-Thing 4) boat
-5 properties:
-    1) brand (std::string)
-    2) color (std::string)
-    3) size (double)
-    4) type (std::string)
-    5) passenger capacity (int)
-3 things it can do:
-    1) accelerate
-    2) float
-    3) sink
  */
 
  /*
@@ -341,56 +339,60 @@ MOVE THEM BELOW this block comment and put them in numerical order
 After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 
-Main Object: Car Interior
-Sub Object 1: Steering Wheel
-    Name 4 things you'll find on the:    Steering Wheel
-        1) paddle shifters
-        2) 'cruise control' controls
-        3) horn
-        4) radio control
-    Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2) honk the horn
-        
-Sub Object 2: Instrument Cluster
-    Name 4 things you'll find on the:   Instrument Cluster
-        1) Speedometer
-        2) Fuel Guage
-        3) RPM Guage
-        4) Battery Light
-    Name 3 things you can do with the:   Instrument Cluster
-        1) Check Speed
-        2) Check Fuel Level
-        3) Is Battery Light On
-    
-Sub Object 3: Environment Controls
-    Name 3 things you'll find on the:    Environment Controls
-        1) Temperature Dial
-        2) Fan Speed Dial
-        3) Rear Defrost Button
-    Name 3 things you can do with the:   Environment Controls
-        1) Change Temperature
-        2) Change Fan Speed
-        3) Engage Rear Defrost
 
-Sub Object 4: Infotainment System
-    Name 3 things you'll find on the:    Infotainment System
-        1) Preset Buttons
-        2) Volume Control Dial
-        3) Radio Tuner
-    Name 3 things you can do with the:   Infotainment System
-        1) Change Volume
-        2) Select Preset
-        3) Change Radio Station
+Thing 1) table
+5 properties:
+    1) number of legs (int)
+    2) wood type (std::string)
+    3) height (double)
+    4) shape (std::string)
+    5) seating capacity (int)
+3 things it can do:
+    1) hold board game
+    2) have drink coasters
+    3) hold plates
+ */
 
-Sub Object 5: Seat 
-    Name 3 things you'll find on the:    Seat
-        1) Backrest
-        2) Recline adjuster
-        3) Position adjuster
-    Name 2 things you can do with the:   Seat
-        1) adjust position
-        2) recline
+/*
+Thing 2) cell phone
+5 properties:
+    1) brand (std::string)
+    2) version (double)
+    3) color (std::string)
+    4) size (double)
+    5) brightness level (double)
+3 things it can do:
+    1) turn on
+    2) make a call
+    3) send a text
+ */
+
+/*
+Thing 3) house
+5 properties:
+    1) air conditioner type (std::string)
+    2) exterior material (std::string)
+    3) interior paint color (std::string)
+    4) flooring type (std::string)
+    5) number of bed rooms (int)
+3 things it can do:
+    1) run air conditioner
+    2) have lights on
+    3) have solar panels
+ */
+
+/*
+Thing 4) boat
+5 properties:
+    1) brand (std::string)
+    2) color (std::string)
+    3) size (double)
+    4) type (std::string)
+    5) passenger capacity (int)
+3 things it can do:
+    1) accelerate
+    2) float
+    3) sink
 
 Thing 5) monitor
 5 properties:
